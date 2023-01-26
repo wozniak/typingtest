@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>typing test</title>
+        <link rel=stylesheet href="style.css">
+    </head>
+    <body>
+        <h3>typing test</h3>
+        <strong id=statusline></strong>
+        <p id=wordBuffer></p>
+        <input id=textBox type=text oninput="keyPress()" autocomplete=off>
+        <button type=button onclick="newTest()">start new test</button>
+        <br>
+        <h3>settings</h3>
+        <input name=rr type=radio id=timeRadio onchange="updateCounter()" checked=1>
+        <label for=timeradio>time</label>
+        <input name=rr type=radio id=wordsRadio onchange="updateCounter()">
+        <label for=wordsRadio>words</label>
+        <br>
+        <input type=number id=amount value=30><strong id="counter"> seconds</strong>
+    </body>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</html>

@@ -1,0 +1,23 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    font-size: large;
+}
+
+.untyped {
+    color: grey;
+}
+
+.correct {
+    color: green;
+    text-decoration: underline;
+}
+
+.wrong {
+    color: red;
+    text-decoration: underline;
+}
+
+#wordBuffer {
+    font-family: monospace;
+}
